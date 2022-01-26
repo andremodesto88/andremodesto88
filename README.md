@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @andremodesto88
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+minutos = int(input('quantos minutos: '))
+segundos = int(input('quantos segundos: '))
 
-<!---
-andremodesto88/andremodesto88 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+result = minutos * 60 + segundos
+
+print(f'A quantidade de segundos é: {result}')
+
